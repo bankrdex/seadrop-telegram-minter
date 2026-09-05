@@ -6,6 +6,8 @@ Self-hosted Telegram bot for **one operator** to check and mint **public OpenSea
 
 The long-lived Node process is this repository. **Deploy it to an always-on host — Railway, Fly, Render, or a VPS. Not Vercel.**
 
+The operator field manual website lives in [`web/`](web/) and is hosted on Vercel for sharing (docs only — the minter bot cannot run on Vercel).
+
 ## What this is
 
 A burner-wallet minter that talks to Telegram and to a single RPC. It reads `getPublicDrop(nftContract)` on SeaDrop `0x00005EA00Ac477B1030CE78506496e8C2dE24bf5` and, when you confirm, broadcasts payable `mintPublic(nftContract, feeRecipient, address(0), quantity)`.
