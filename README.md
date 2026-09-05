@@ -6,7 +6,7 @@ Self-hosted Telegram bot for **one operator** to check and mint **public OpenSea
 
 The long-lived Node process is this repository. **Deploy it to an always-on host — Railway, Fly, Render, or a VPS. Not Vercel.**
 
-The operator field manual website lives in [`web/`](web/) and is hosted on Vercel for sharing (docs only — the minter bot cannot run on Vercel).
+Live field manual (share this): **https://seadrop-telegram-minter.vercel.app** — source in [`web/`](web/). Docs only; the minter bot cannot run on Vercel.
 
 ## What this is
 
